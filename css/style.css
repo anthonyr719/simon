@@ -1,0 +1,81 @@
+body {
+    background: url("http://www.uidownload.com/files/598/984/54/abstract-colorful-background-design.jpg") no-repeat center center fixed;
+    background-size: cover;
+    border-radius: 10px;
+    width: 50vw;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  main {
+    background-color: none;
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+    border: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 9px;
+    grid-template-areas:    "green    red"
+                            "yellow  blue";
+  }
+
+  #green {
+    grid-area: green;
+    background-color:green;
+    border: 5px solid black;
+    border-radius: 30px;
+  }
+  .lightgreen {
+      background-color: #00FF00 !important;
+  }
+  
+  #red {
+    grid-area: red;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 30px;
+  }
+  .lightred {
+      background-color: #FA8072 !important;
+  }
+
+  #yellow {
+    grid-area: yellow;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 30px;
+  }
+  .lightyellow {
+      background-color: #FFFFE0 !important;
+  }
+
+  #blue {
+    grid-area: blue;
+    background-color:blue;
+    border: 5px solid black;
+    border-radius: 30px;
+  }
+  .lightblue {
+      background-color: #00BFFF !important;
+  }
+
+  .gametitle {
+    font-size: xx-large;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
+button {
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
